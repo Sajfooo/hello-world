@@ -11,7 +11,7 @@ type vector = float * float;;
 (*typ reprezentujący kartkę origami*)
 type kartka = point -> int;;
 
-(*typ prsechowujący informację dla danego x o jego signum*)
+(*typ przechowujący informację dla danego x o jego signum*)
 type sign =
     | Zero
     | Positive
